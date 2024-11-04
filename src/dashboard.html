@@ -1,0 +1,30 @@
+<!-- src/dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script> <!-- Include Web3.js -->
+    <script src="./app.js" defer></script> <!-- Load your app.js -->
+</head>
+<body>
+    <div class="container">
+        <h2>Storage Dashboard</h2>
+        <div>
+            <h3>Provide Storage</h3>
+            <input id="size" type="number" placeholder="Size (GB)" />
+            <input id="price" type="number" placeholder="Price (ETH)" />
+            <button id="provideStorageBtn">Submit</button>
+        </div>
+        <div>
+            <h3>Purchase Storage</h3>
+            <input id="offerId" type="number" placeholder="Offer ID" />
+            <button id="purchaseStorageBtn">Purchase</button>
+        </div>
+    </div>
+
+    <!-- <script src="app.js"></script> -->
+</body>
+</html>
